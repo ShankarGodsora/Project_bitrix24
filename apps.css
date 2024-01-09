@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+.apps{
+    padding: 20px;
+    height: 290px;
+    background-color: rgb(60,169,241);
+     /* border: 2px solid purple; */
+
+}
+
+.apps>div{
+    width: 67%;
+    margin: auto;
+     /* border: 2px solid red; */
+    
+}
+
+.apps>div>:nth-child(1){
+    font-size: 55px;
+    padding: 1%;
+    font-weight: 500;
+    color: white;
+     /* border: 2px solid green; */
+
+}
+
+.apps>div>:nth-child(2){
+    font-size: 22px;
+    color: white;
+    line-height:40px;
+    padding: 1%;
+    margin-top: 1%;
+    /* border: 2px solid orange; */
+}
+
+.appsBox{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+   
+}
+
+
+
+/* <---------------------1st linebox---------------> */
+.appsBox>:nth-child(1){
+    display: flex;
+    margin-top: 2%;
+    /* border: 2px solid blue;    */
+}
+
+.appsBox>:nth-child(1)>:nth-child(1){
+    width: 65%;
+    /* border: 2px solid pink; */
+   
+}
+
+.appsBox>:nth-child(1)>:nth-child(2){
+    width: 35%;
+    height: 362px;
+    margin-top: 16%;
+    /* border: 2px solid greenyellow; */
+}
+
+.appsBox>div>:nth-child(2)>div{
+   margin-left: 4%;
+   /* border: 2px solid orange; */
+}
+
+.appsBox>div>:nth-child(2)>div>h2{
+    font-size: 40px;
+    font-weight: 300;
+    /* border: 2px solid gray; */
+}
+
+.appsBox>div>:nth-child(2)>div>p{
+    padding-top: 5%;
+    font-size: 22px;
+    line-height: 30px;
+    /* border: 2px solid rgb(86, 183, 86); */
+}
+
+.appsBox>div>:nth-child(2)>div>p+div{
+    margin-top: 5%;
+    padding: 2.5%;
+    border-radius: 30px;
+    width:23%;
+    color: white;
+    background-color: rgb(0,174,239);
+    text-align: center;
+    /* border: 2px solid rgb(86, 183, 181); */
+}
+
+
+
+
+/*<----------------2nd linebox-----------------> */
+
+.appsBox>:nth-child(2){
+    display: flex;
+    margin-top: 6%;
+    /* border: 2px solid blue;     */
+}
+
+.appsBox>:nth-child(2)>:nth-child(1){
+    width: 35%;
+    /* border: 2px solid pink; */
+
+}
+
+.appsBox>:nth-child(2)>:nth-child(1)>div{ 
+    margin-right: 4%;
+    /* border: 2px solid orange; */
+ }
+ 
+.appsBox>:nth-child(2)>:nth-child(1)>div>h2{
+    font-size: 40px;
+    font-weight: 300;
+    /* border: 2px solid gray; */
+ }
+ 
+.appsBox>:nth-child(2)>:nth-child(1)>div>p{
+    padding-top: 5%;
+    font-size: 22px;
+    line-height: 30px;
+    /* border: 2px solid rgb(86, 183, 86); */
+ }
+.appsBox>:nth-child(2)>:nth-child(1)>div>:nth-child(3){
+    margin-top:5%;
+    padding: 2.5%;
+    border-radius: 30px;
+    width:23%;
+    color: white;
+    background-color: rgb(0,174,239);
+    text-align: center;
+    /* border: 2px solid rgb(86, 183, 181); */
+} 
+
+.appsBox>:nth-child(2)>:nth-child(1)>div>:nth-child(4){
+    margin-top: 7%;
+    display: flex;
+    width: 115%;
+    /* border: 2px solid teal; */
+
+}
+
+.apple_GoogleStore{
+    display: flex;
+    height: 52px;
+    margin-top: 15%;
+    margin-left: 1%;
+    width: 60%;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.apple_GoogleStore>:nth-child(1){
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-right: 2%;
+    border-radius: 5px;
+    background-color:black;
+
+}
+
+.apple_GoogleStore>:nth-child(2){
+    height: 50px;
+    width: 45%;
+    display: flex;
+    border-radius: 5px;
+    background-color:black;
+    
+} 
+
+
+.appsBox>:nth-child(2)>:nth-child(2){
+    width: 65%;
+    /* border: 2px solid greenyellow; */
+}
+
+
+
+/* <---------------3rd linebox-----------------> */
+.appsBox>:nth-child(3){
+    display: flex;
+    margin-top: 6%;
+    /* border: 2px solid blue;   */
+}
+
+.appsBox>:nth-child(3)>:nth-child(1){
+    width: 65%;
+    /* border: 2px solid pink; */
+   
+}
+
+.appsBox>:nth-child(3)>:nth-child(2){
+    width: 35%;
+    /* border: 2px solid greenyellow; */
+}
+
+.desktopapp{
+    margin-top: 1%;
+    /* border: 2px solid blue; */
+
+}
+
+.downloadDesktop{
+    margin-top: 2%;
+    /* border: 2px solid red; */
+}
+
+.downloadDesktop>:nth-child(1),
+.downloadDesktop>:nth-child(2){
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.downloadDesktop>:nth-child(1)>:nth-child(1){
+    background-color: rgb(189,243,0);
+}
+
+.downloadDesktop>:nth-child(1)>div,
+.downloadDesktop>:nth-child(2)>div,
+.downloadDesktop>:nth-child(3){
+    width:29%;
+    height: 20px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgb(222,226,230);
+    /* border: 1px solid gray; */
+}
+
+
+
+
+/*<----------------4nd linebox-----------------> */
+.appsBox>:nth-child(4){
+    display: flex;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    /* border: 2px solid blue;   */
+}
+.appsBox>:nth-child(4)>:nth-child(1){
+    width: 35%;
+    /* border: 2px solid pink; */
+
+}
+
+.appsBox>:nth-child(4)>:nth-child(1)>div{ 
+    margin-right: 4%;
+    margin-top:25%;
+    /* border: 2px solid orange; */
+ }
+ 
+.appsBox>:nth-child(4)>:nth-child(1)>div>h2{
+    font-size: 40px;
+    font-weight: 300;
+    /* border: 2px solid gray; */
+ }
+ 
+.appsBox>:nth-child(4)>:nth-child(1)>div>p{
+    padding-top: 5%;
+    font-size: 22px;
+    line-height: 30px;
+    /* border: 2px solid rgb(86, 183, 86); */
+ }
+
+.appsBox>:nth-child(4)>:nth-child(1)>div>:nth-child(3){
+    margin-top:5%;
+    padding: 2.5%;
+    border-radius: 30px;
+    width:23%;
+    color: white;
+    background-color: rgb(0,174,239);
+    text-align: center;
+    /* border: 2px solid rgb(86, 183, 181); */
+} 
+
+.appsBox>:nth-child(4)>:nth-child(2){
+    width: 65%;
+    /* border: 2px solid greenyellow; */
+}

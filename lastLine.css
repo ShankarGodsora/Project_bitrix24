@@ -1,0 +1,103 @@
+.lastLine{
+    background-color:rgb(0,174,239);
+    padding:3%;
+    /* border: 2px solid red; */
+
+}
+
+.lastLine>:nth-child(1){
+    width: 69%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 3%;
+    /* border: 2px solid hotpink; */
+    
+}
+
+.lastLine>div>div{
+    width: 20%;
+    font-size: 16px;
+    /* border: 2px solid purple; */
+   
+}
+
+.lastLine>div>div>div{
+    padding: 3%;
+    color: white;
+
+}
+
+.lastLine>:nth-child(2){
+    width: 69%;
+    margin: auto;
+
+}
+
+.lastLine>:nth-child(3){
+    width: 69%;
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+    /* border: 2px solid indianred; */
+    
+}
+
+.lastLine>:nth-child(3)>div{
+    width: 50%;
+    font-size:13px;
+    /* border: 2px solid white; */
+  
+}
+
+.apple{
+    display: flex;
+    width: 48%;
+    margin-left:45%;
+    /* border: 1px solid white; */
+
+}
+
+.apple>:nth-child(1){
+    display: flex;
+    margin-right: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:black;
+
+}
+
+.apple>:nth-child(2){
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:black;
+    
+}
+
+.you{
+    display: flex;
+    /* border: 2px solid wheat; */
+
+}
+
+/* .you>div{
+    border: 2px solid wheat;
+} */
+
+.you>:nth-child(7){
+    width: 35%;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    font-size: 18px;
+    /* color: white; */
+
+}
+
+.you>:nth-child(7)>img{
+padding-left: 60%;
+
+}

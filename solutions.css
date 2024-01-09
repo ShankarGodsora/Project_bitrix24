@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.solutions{
+    height: 1000px;
+    width: 69%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    /* border: 2px solid red; */
+
+}
+
+.solutions>:nth-child(1){
+    text-align: center;
+    font-size:40px;
+    margin-bottom: 2%;
+    /* border: 2px solid blue */
+}
+
+.solutions>:nth-child(2){
+    display: grid;
+    gap:2%;
+    grid-template-rows: repeat(3,300px);
+}
+.solutions>:nth-child(2)>div{
+    display:flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+   
+}
+.solutions2>:nth-child(1)>:nth-child(1){
+    width: 55%;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(249,249,249);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    /* border: 2px solid greenyellow; */
+    
+}
+
+
+/* <----------------Role-----------------> */
+
+.solutions2>:nth-child(1)>:nth-child(1)>div{
+    height:280px ;
+    margin-left: 3%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.Role0{
+    width:40%;
+    /* border:2px solid black; */
+}
+.Role0>h1{
+    padding-top: 5%;
+}
+.rolee{
+    font-size: 25px;
+    margin-top: 30%;
+    /* border: 2px solid orange; */
+}
+.Role1>div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid plum; */
+}
+.Role1>:nth-child(1)>div{
+    border: 1px solid rgb(0,174,239);
+    width: 50%;
+    margin:1%;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(0,174,239);
+    
+}
+
+.Role1>:nth-child(2)>div{
+    border: 1px solid rgb(0,174,239);
+    margin: 1%;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(0,174,239);
+}
+
+.Role1>:nth-child(3)>div{
+    border: 1px solid rgb(0,174,239);
+    margin: 1%;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(0,174,239);
+}
+.Role1>:nth-child(1)>div:hover{
+    color: white;
+    background-color: rgb(0,174,239);
+}
+.Role1>:nth-child(2)>div:hover{
+    color: white;
+    background-color: rgb(0,174,239);
+}
+.Role1>:nth-child(3)>div:hover{
+    color: white;
+    background-color: rgb(0,174,239);
+}
+
+
+.Role2{
+    width: 55%;
+    padding: 2%;
+    /* border: 2px solid teal; */
+}
+.Role2>img{
+    margin-top: 3%;
+}
+
+
+/* <----------------Need---------------> */
+
+
+.solutions2>:nth-child(1)>:nth-child(2){
+    width: 42%;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(64,158,239);
+    /* border: 2px solid darkcyan; */
+
+}
+
+.need{
+    width:80%;
+    font-size: 22px;
+    margin-left: 5%;
+    /* border:2px solid black; */
+}
+.need>h1{
+    padding-top: 5%;
+}
+
+.need>div{
+    font-size: 25px;
+    margin-top: 20%;
+    /* border: 2px solid orange; */
+}
+
+.needs>div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid plum; */
+}
+
+.needs>:nth-child(2)>div{
+    border: 1px solid white;
+    width: 50%;
+    margin:1%;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.needs>:nth-child(1)>div{
+    border: 1px solid white;
+    margin: 1%;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.needs>:nth-child(3)>div{
+    border: 1px solid white;
+    margin: 1%;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.needs>:nth-child(1)>div:hover{
+    background-color: white;
+    color: rgb(0,174,239);
+}
+.needs>:nth-child(2)>div:hover{
+    background-color: white;
+    color: rgb(0,174,239);
+}
+.needs>:nth-child(3)>div:hover{
+    background-color: white;
+    color: rgb(0,174,239);
+}
+
+
+
+/* <-------------------Industry---------------> */
+.solutions2>:nth-child(2){
+    justify-content: space-between;
+}
+.solutions2>:nth-child(2)>:nth-child(1){
+    width: 42%;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(64,158,239);
+    /* border: 2px solid darkcyan; */
+
+}
+
+
+.indus{
+    width:80%;
+    font-size: 22px;
+    margin-left: 5%;
+    /* border:2px solid black; */
+}
+.indus>h1{
+    padding-top: 5%;
+}
+
+.indus>div{
+    font-size: 28px;
+    margin-top: 13%;
+    /* border: 2px solid orange; */
+}
+
+
+
+/* <---------------------Tool-----------------------> */
+
+
+.solutions2>:nth-child(2)>:nth-child(2){
+    background-color: rgb(249,249,249);
+    width: 55%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 20px;
+    /* border: 1px solid blue; */
+}
+
+.solutions2>:nth-child(2)>:nth-child(2)>div{
+    margin-left: 3%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+
+.Tool0{
+    width:55%;
+    /* border:2px solid black; */
+}
+
+.Tool2{
+    width: 40%;
+    padding: 2%;
+    /* border: 2px solid teal; */
+}
+.Tool0>h1{
+    padding-top: 5%;
+    font-size:40px;
+}
+
+.Tool{
+    font-size: 25px;
+    margin-top: 20%;
+    /* border: 2px solid orange; */
+}
+
+
+
+
+/* <--------------------------Business size-------------> */
+.solutions2>:nth-child(3)>:nth-child(1){
+    width:42%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: rgb(249,249,249);
+    /* border: 2px solid darkcyan; */
+
+
+}
+
+.Busi{
+    width:80%;
+    font-size: 22px;
+    margin-left: 5%;
+    /* border:2px solid black; */
+}
+.Busi>h1{
+    padding-top: 5%;
+}
+
+.Busi>div{
+    font-size: 25px;
+    margin-top: 20%;
+
+    /* border: 2px solid orange; */
+}
+
+.Busine>div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid plum; */
+}
+
+.Busine>:nth-child(2)>div{
+    border: 1px solid rgb(0,174,239);
+    width: 50%;
+    margin:1%;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(0,174,239);
+    border-radius: 20px;
+
+}
+
+.Busine>:nth-child(1)>div{
+    border: 1px solid rgb(0,174,239);
+    margin: 1%;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(0,174,239);
+}
+
+.Busine>:nth-child(1)>div:hover{
+    color: white;
+    background-color: rgb(0,174,239);
+}
+.Busine>:nth-child(2)>div:hover{
+    color: white;
+    background-color: rgb(0,174,239);
+  
+}
+
+.solutions2>:nth-child(3)>:nth-child(2){
+    width:55%;
+    padding-top: 1.3%;
+    /* border: 2px solid red; */
+}
+
+
+.Business>img{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+

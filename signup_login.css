@@ -1,0 +1,317 @@
+  /* <----------------------------first page start-----------------------------> */
+  .cont{
+    width:100%;
+    display: flex;
+    /* border: 2px solid red; */
+   
+}
+
+.cont1{
+    height: 990px;
+    width:59%;
+    /* border: 2px solid blue; */
+
+}
+
+#cont1{
+    width:41%;
+    background-image: url("https://thumbnails.production.thenounproject.com/ZCiNIk1lq9LN5xO8a59r_16TmL4=/fit-in/0x450/photos.production.thenounproject.com/photos/152D9842-C245-468F-BA68-93E70720AAEB.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%;
+    /* border: 2px solid yellow; */
+    
+}
+
+.cont2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    /* border: 2px solid red; */
+   
+}
+
+img~a{
+    padding-top:4%;
+    color: white;
+    text-decoration: none;
+}
+
+#cont2{
+ 
+    margin-top: 10%;
+    margin-bottom: 35%;
+}
+
+#your{
+    height: 22%;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 25px;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+.langs{
+     margin-top: 35%;
+    margin-left: 70%;
+    width: 20%;
+   
+}
+.lang{
+    height: 50px;
+    width: 100%;
+    border: 2px solid white;
+    font-size: 20px;
+    padding-left:2%;
+    background-color:transparent;
+  
+}
+
+/* <----------------------first page end---------------------> */
+
+
+
+/* ------------------------second page start-------------------> */
+
+.login{
+    height: 700px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    /* border: 2px solid greenyellow; */
+
+}
+
+.gin{
+    height: 700px;
+    width: 72%;
+    margin: auto;
+    /* border: 2px solid blue; */
+   
+} 
+
+.use{
+    font-size: 18px;
+    text-align: center;
+    color: #818078;
+    font-family: Futura, sans-serif;
+
+}
+
+.logoo{
+    width: 70%;
+    display:grid;
+    grid-template-columns: repeat(6,75px);
+    margin: auto;
+    /* border: 2px solid grey; */
+   
+}
+
+label{
+    font-size: 20px;
+    color: #818078;
+    
+}
+
+.emails{
+    height: 40px;
+    width:70%;
+    font-size: 16px;
+    margin-top: 3%;
+    
+}
+.para{
+        color: #818078;
+}
+span{
+    color: rgb(74,205,247)
+}
+
+
+
+
+/* <--------------checkbox start----------> */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+}
+
+.container input:checked ~ .checkmark {
+     background-color: white;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+     display: block;
+}
+
+.container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #2196F3;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+    
+/* <-----------------------checkbox end------------------> */
+
+  
+ /* <------------------------(or) line start---------------> */
+.container {
+    max-width: 100%;  
+    margin: 10px;
+    /* border: 2px solid blue; */
+}
+
+.hr-text {
+
+    color: black;
+    text-align: center;
+    margin-right: 5%;
+    border: 0;
+        /* border: 2px solid red; */
+    &:before {
+        content: '';
+        background: linear-gradient( #818078, transparent);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+        /* border: 2px solid green; */
+    }
+
+    &:after {
+        content: attr(data-content);
+        position: relative;
+        padding: 0 .5em;
+        color: #818078;
+        background-color: #fcfcfa;
+        /* border: 2px solid yellow; */
+        }
+}   
+
+
+/* -------------------------button start------------------> */
+.e{
+    width:70%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    gap: 5%;
+    margin-top: 2%;
+    /* border: 2px solid magenta; */
+    
+}
+
+.btn{
+    width:50%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(189,243,1);
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    /* border: 2px solid red; */
+    
+}
+#btn{
+    color:#818078;
+    background-color: white;
+    width: 42%;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    /* border: 2px solid red; */
+
+}
+
+
+/* <---------------------------------button end--------------------------------> */
+
+
+
+/* <---------------------------------forgot button start-----------------------> */
+
+.forgot{
+    margin: auto;
+    font-size: 20px;
+    color:#818078;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 40%;
+    border: none;
+    /* border: 2px solid red; */
+   
+   }
+/* <---------------------------------forgot button end-----------------------> */
+
+
+
+
+/* <-------------------------last paragraph , need heplps start-----------------> */
+.last{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10%;
+    color:#818078;
+}
+.lasta{
+    color:rgb(39,163,248);
+    font-size: 22px;
+   
+}
+.lastaa{ 
+    width: 12%;
+    margin-left: 50%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+}
+/* <-------------------------last paragraph , need heplps end-----------------> */
+
+
